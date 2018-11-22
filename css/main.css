@@ -15,7 +15,8 @@
 }
 
 nav {
-
+    grid-column: 1/-1;
+    grid-row: 100;
 }
 
 main {
@@ -28,4 +29,10 @@ aside {
 
 footer {
 
+}
+
+
+#ava {      /* Это типа резиновая шапка:) */
+    width: 100%;
+    height: auto;
 }
