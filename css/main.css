@@ -9,22 +9,28 @@
     grid-template-rows: repeat(8, auto);
 }
 
-.header {
+header {
     grid-column: 1/-1;
     grid-row: 1;
 }
 
 nav {
-    grid-column: 1/-1;
-    grid-row: 100;
+    grid-column: 2;
+    grid-row: 3;
 }
 
 main {
-
+    grid-column: 1;
+    grid-row: 3;
 }
 
 aside {
+    grid-column: 1/-1;
+    grid-row: 2;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -33,6 +39,6 @@ footer {
 
 
 #ava {      /* Это типа резиновая шапка:) */
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 100%;
 }
