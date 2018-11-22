@@ -8,3 +8,9 @@
     grid-template-columns: repeat(2, auto);
     grid-template-rows: repeat(8, auto);
 }
+
+.header {
+    grid-column: 1/-1;
+    grid-row: 1;
+}
+
