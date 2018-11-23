@@ -34,11 +34,27 @@ aside {
 }
 
 footer {
-
+    grid-column: 1/-1;
+    background-color: #5C80D6;
+    text-align: center;
+    grid-row: 100;      /* пока так */
+    min-height: 100px;
+    font-size: 24px;
 }
 
 
 #ava {      /* Это типа резиновая шапка:) */
-    width: auto;
-    height: 100%;
+    width: 100%;
+    height: auto;
+}
+
+aside {
+    background-color: #5C80D6;
+    font-size: 40px;
+    color: white;
+}
+
+#karta {
+    width: 100%;
+    height: auto;
 }
